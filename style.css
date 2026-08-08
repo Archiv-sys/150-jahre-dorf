@@ -7,6 +7,9 @@ body {
     line-height: 1.6;
     color: #222;
     background-color: #fff;
+
+    /* Browser-Zoom per Zwei-Finger-Geste erlauben */ 
+    touch-action: pinch-zoom;
 }
 
 h1 {
